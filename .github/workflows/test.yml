@@ -1,0 +1,8 @@
+name: testing-github-actions
+on: [push]
+jobs:
+	say-hello-world:
+		runs-on: ubuntu-latest
+		steps:
+			- run: echo "hello world!!!"
+			- run: echo "hello world2!!!"
